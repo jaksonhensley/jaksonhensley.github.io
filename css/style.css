@@ -1,0 +1,179 @@
+/*Removing all margins in the body*/
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+/*Div class selectors*/
+
+.top {
+    background-color: #F8F8F8;
+    margin: 0px;
+}
+
+.middle {
+    background-color: #DCDCDC;
+    margin: 0px;
+}
+
+.bottom {
+    background-color: darkgrey;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+/*Link color*/
+/* unvisited link */
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+a.contact:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a.contact:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.contact:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a.contact:active {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling horizontal rule */
+hr.new {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+/*Fonts*/
+h1.name {
+    font-family: new-spirit-condensed, serif;
+    filter: drop-shadow(10px 10px 15px gray);
+    margin-top: 0px;
+    padding-left: 70px;
+    padding-top: 20px;
+    color: black;
+}
+
+h1.contact {
+    font-family: new-spirit-condensed, serif;
+    font-size: 30px;
+    filter: drop-shadow(10px 10px 15px gray);
+    margin-top: 0px;
+    padding-left: 70px;
+    padding-top: 20px;
+    color: black;
+}
+
+h2.subtitle {
+    font-family: new-spirit, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: inherit;
+    margin-top: 0px;
+    padding-left: 20px;
+    color: black;
+}
+
+p.main,
+dl.main,
+dd.main,
+h3.main,
+ul.main,
+li.main,
+form.main {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*IMG Styling*/
+img.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+img.headshot {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: dashed;
+    border-radius: 2px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+/*Button Styling*/
+.button {
+    margin: 0px;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 0px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*DL Styling*/
+dl.main {
+    margin: 0px;
+}
+
+/*Columns and Rows for Contact*/
+.col {
+    float: left;
+    width: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
